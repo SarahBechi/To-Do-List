@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.to-do-app {
+    background-color: #4696E5;
+    color: white;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: right;
+    padding-right: 74px;
+    padding-left: 74px;
+}
+
+.get-work-done{
+    background-color: #FAFAFA;
+    color: white;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+#enter-task{
+    color: grey;
+    height: 44px;
+    border-radius: 7px;
+    font-size: 17px;
+}
+
+    #get-work-done{
+        color: grey;
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 20px;
+
+    }
+    #to-do{
+        font-size: 75px;
+        font-weight: 800;        
+
+    }
+    #add-btn{
+        border: 1px solid white;
+    width: 59px;
+    padding: 16px;
+    border-radius: 8px;
+    margin-left: 1262px;
+    text-align: center;
+    font-weight: 600;
+    
+    }
+    #add-btn:hover {
+        cursor: pointer;
+    }
+
+    #new-element {
+        width: 164px;
+        margin-left: 1186px;
+        font-size: 20px;
+        font-weight: 600;
+    }
